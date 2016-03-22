@@ -2,11 +2,11 @@
 
     <div class="row">
 
-        <div class="three columns">
+        <div class="four columns">
             <?php get_sidebar(); ?>
         </div>
 
-        <div class="nine columns">
+        <div class="eight columns">
 <!-- BEGIN PAGE PHP -->
             <?php if (have_posts()) :
                 /* OUR DATA CONTEXT IS DEFINED  */

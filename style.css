@@ -17,6 +17,10 @@ Text Domain: alice_guan_blank_template
     line-height: 1.5rem;
 }
 
+.container {
+    padding-bottom: 5em;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: black;
 }
@@ -55,24 +59,65 @@ p {
 }
 
 /*--- Menu --- */
+.sidemenu {
+    float: right;
+    background-color: #ffc4a6;
+    padding: 2em;
+}
+
+.sidemenu h1 {
+    font-size: 5em;
+    color: white;
+}
 
 .blank-menu-header {
+    float: left;
 }
+
 .blank-menu-header ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
 }
-.blank-menu-header li {
-    display: inline;
-}
+
 .blank-menu-header ul li a {
     text-decoration:none;
     margin: 4px;
-    padding: 5px 0px 5px 40px;
+    padding: 5px 0px 5px 5px;
     font-weight: 300;
+    color: white;
 }
 .blank-menu-header ul li a:hover {
     color: #cccccc;
+}
+
+.menu-side-menu {
+    float: left;
+}
+
+.social {
+    background-color: #ffc4a6;
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.social {
+    display: inline;
+    margin-top: 1em;
+    color: white;
+    padding: 1em;
+}
+
+.social i {
+    color: white;
+}
+
+.social li{
+    display: inline;
+    text-decoration: none;
+    padding: 1em;
 }

@@ -2,7 +2,7 @@
 
         <section class="row">
 
-            <div class="nine columns">
+            <div class="eight columns">
                 <p>
                     <?php
                     if ( have_posts() ) {
@@ -13,15 +13,12 @@
                         if ( has_post_thumbnail() ) {
                             the_post_thumbnail('thumbnail');
                         }
-                        the_excerpt(); 
+                        the_excerpt();
                     } // end while
                 } // end if
                     ?>
             </div>
-            <div class="three columns">
-                <h4>Side Bar</h4>
-                <p>Side Bar<p>
-            </div>
+        
         </section>
 
 <?php get_footer(); ?>
