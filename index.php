@@ -2,7 +2,7 @@
 
         <section class="row">
 
-            <div class="eight columns">
+            <div class="eight columns frontpg">
                 <p>
                     <?php
                     if ( have_posts() ) {
@@ -18,7 +18,7 @@
                 } // end if
                     ?>
             </div>
-        
+
         </section>
 
 <?php get_footer(); ?>
