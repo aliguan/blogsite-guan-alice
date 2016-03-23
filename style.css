@@ -16,8 +16,8 @@ Text Domain: alice_guan_blank_template
 }
 
 @font-face {
-    font-family: sfheavy;
-    src: url("http://www.aliceguandesign.com/blog/wp-content/themes/blogsite-guan-alice/fonts/sfheavy.otf");
+    font-family: sfsemibold;
+    src: url("http://www.aliceguandesign.com/blog/wp-content/themes/blogsite-guan-alice/fonts/sfsemibold.otf");
 }
 
 @font-face {
@@ -39,11 +39,12 @@ Text Domain: alice_guan_blank_template
 
 .frontpg {
     padding: 2em;
+    float: right;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: black;
-    font-family: sfheavy;
+    font-family: sfsemibold;
 }
 
 h2, h4, h6 {
@@ -82,10 +83,13 @@ p {
 
 /*--- Menu --- */
 .sidemenu {
-    float: right;
+    position: fixed;
     background-color: #ffc4a6;
     padding: 2em;
     font-family: sfthin;
+    height: 5000px;
+    overflow-y: hidden;
+
 }
 
 .sidemenu h1 {
@@ -95,6 +99,7 @@ p {
 
 .blank-menu-header {
     float: left;
+    margin-top: 1.5em;
 }
 
 .blank-menu-header ul {
@@ -104,11 +109,15 @@ p {
     list-style-image: none;
 }
 
+.blank-menu-header ul li {
+    padding-bottom: 10px;
+}
+
 .blank-menu-header ul li a {
     text-decoration:none;
     margin: 4px;
-    padding: 5px 0px 10px 5px;
-    font-size: 2.5em;
+    padding: 5px 0px 20px 5px;
+    font-size: 1.8em;
     color: white;
 }
 .blank-menu-header ul li a:hover {
@@ -121,7 +130,8 @@ p {
 
 .social {
     background-color: #ffc4a6;
-    float: right;
+    clear: both;
+
 }
 
 .hide {
@@ -129,10 +139,15 @@ p {
 }
 
 .social {
-    display: inline;
-    margin-top: 1em;
     color: white;
-    padding: 1em;
+    padding-top: 1em;
+    display: block;
+}
+
+.social ul {
+    width: 99%;
+    margin: auto;
+    display: block;
 }
 
 .social i {
@@ -180,4 +195,15 @@ input[type="search"] {
 
 input {
     outline: none;
+}
+
+.footerside {
+    background-color: #ffc4a6;
+}
+
+widget-sidebar widget-footer {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
 }

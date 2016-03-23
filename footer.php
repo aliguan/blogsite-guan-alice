@@ -1,12 +1,9 @@
         <footer class="row">
-            <div class="four columns">
+            <div class="eight columns">
                 <?php dynamic_sidebar('footer-left') ?>
             </div>
-            <div class="four columns">
-                <?php dynamic_sidebar('footer-middle') ?>
-            </div>
-            <div class="four columns">
-                <?php dynamic_sidebar('footer-right') ?>
+            <div class="four columns footerside">
+                <?php dynamic_sidebar('footer-left') ?>
             </div>
         </footer>
     </div><!-- container -->
