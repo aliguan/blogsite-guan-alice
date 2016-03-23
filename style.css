@@ -145,12 +145,13 @@ p {
 }
 
 .social ul {
-    width: 99%;
-    margin: auto;
+    margin-top: 150px;
     display: block;
+    margin-left: 32px;
 }
 
 .social i {
+    font-size: 1.5em;
     color: white;
 }
 

@@ -26,12 +26,13 @@
                     'sort_column' => 'menu_order',
                     'container_class' => 'blank-menu-header'
                 ));?>
-                <ul class="social">
+            </div>
+            <div class="social">
+                <ul>
                     <li><a href="http://www.instagram.com/guanoftw"><i class="fa fa-instagram fa-3x"></i></a></li>
                     <li><a href="http://www.twitter.com/guanoftw"><i class="fa fa-twitter fa-3x"></i></a></li>
                     <li><a href="mailto:aliguan726@gmail.com"><i class="fa fa-envelope fa-3x"></i></a></li>
                 </ul>
-
             </div>
         </div>
 
