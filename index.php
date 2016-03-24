@@ -2,7 +2,7 @@
 
         <section class="row">
 
-            <div class="eight columns frontpg">
+            <div class="gridcontainer eight columns frontpg">
                 <?php
                     $counter = 1; //start counter
 
@@ -21,7 +21,7 @@
                 ?>
             <div class="griditemleft">
                 <div class="postimage">
-                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-left'); ?></a>
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-right'); ?></a>
                 </div>
                 <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
             </div>
@@ -35,18 +35,18 @@
                 </div>
                 <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
             </div>
-            <div class="clear"></div>
             <?php
                 $counter = 0;
                 endif;
             ?>
-        </div>
+
         <?php
             $counter++;
             endwhile;
             //Post Navigation code goes here
             endif;
         ?>
-        </section>
+        </div>
+    </section>
 
 <?php get_footer(); ?>
