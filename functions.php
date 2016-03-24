@@ -49,7 +49,8 @@ add_theme_support('menus');
 /*--- Enable Post Thumbnails ---*/
 
 add_theme_support( 'post-thumbnails' );
-add_image_size( 'frontpg-thumb', 700, 477, true );
+add_image_size( 'frontpg-left', 66%, auto, true );
+add_image_size( 'frontpg-right', 33%, auto, true );
 
 
 ?>
