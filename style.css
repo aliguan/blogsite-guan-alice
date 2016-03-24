@@ -80,8 +80,8 @@ p {
     margin: 20px 0;
 }
 .gridcontainer h2 a {color: #77787a; font-size: 13px;}
-.gridcontainer .griditemleft{float: left; width: 278px; margin: 0 40px 40px 0;}
-.gridcontainer .griditemright{float: left; width: 278px;}
+.gridcontainer .griditemleft{float: left; width: 66%; margin: 0 2px 0 0;}
+.gridcontainer .griditemright{float: left; width: 33%;}
 .gridcontainer .postimage{margin: 0 0 10px 0;}
 
 .wp-post-image {
