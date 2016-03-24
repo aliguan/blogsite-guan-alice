@@ -21,7 +21,7 @@
                 ?>
             <div class="griditemleft">
                 <div class="postimage">
-                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-thumb'); ?></a>
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-left'); ?></a>
                 </div>
                 <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
             </div>
@@ -31,7 +31,7 @@
                 ?>
             <div class="griditemright">
                 <div class="postimage">
-                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('category-thumbnail'); ?></a>
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-right'); ?></a>
                 </div>
                 <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
             </div>
@@ -41,7 +41,12 @@
                 endif;
             ?>
         </div>
-
+        <?php
+            $counter++;
+            endwhile;
+            //Post Navigation code goes here
+            endif;
+        ?>
         </section>
 
 <?php get_footer(); ?>
