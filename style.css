@@ -38,8 +38,9 @@ Text Domain: alice_guan_blank_template
 }
 
 .frontpg {
-    padding: 2em;
+    padding: 1em 2em 0 0;
     float: right;
+    margin-left: -100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,16 +79,65 @@ p {
 
 .gridcontainer {
     margin: 20px 0;
+    max-width: 900px;
 }
-.gridcontainer h2 a {color: #77787a; font-size: 13px;}
-.gridcontainer .griditemleft{float: left; width: 66%; margin: 0 2px 0 0;}
-.gridcontainer .griditemright{float: left; width: 33%;}
-.gridcontainer .postimage{margin: 0 0 10px 0;}
+
+.gridcontainer h2 a {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: sfsemibold;
+}
+
+.gridcontainer a:hover {
+    color: blue;
+}
+
+.gridcontainer .griditemleft {
+    float: left;
+    width: 66%;
+    margin: 0 2px 0 0;
+ }
+
+.gridcontainer .griditemright {
+    float: left;
+    width: 33%;
+}
+
+.gridcontainer
 
 .wp-post-image {
     width: 100%;
     height: auto;
 }
+
+/*.ontop {
+    position: absolute;
+    top: -350px;
+    left: 30px;
+    border:
+}*/
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
 
 /*--- Menu --- */
 .sidemenu {

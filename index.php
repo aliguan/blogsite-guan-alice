@@ -23,7 +23,7 @@
                 <div class="postimage">
                     <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-right'); ?></a>
                 </div>
-                <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                <h2 class="ontop hvr-bounce-in"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
             </div>
                 <?php
                 //Show the right hand side column
@@ -33,7 +33,7 @@
                 <div class="postimage">
                     <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-right'); ?></a>
                 </div>
-                <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                <h2 class="ontop hvr-bounce-in"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
             </div>
             <?php
                 $counter = 0;
