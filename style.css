@@ -75,6 +75,9 @@ h6 {
 p {
     text-indent: 30px;
     font-family: sfthin;
+    line-height: 1.1em;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
 }
 
 .gridcontainer {
@@ -295,6 +298,10 @@ widget-sidebar widget-footer {
     overflow: hidden;
 }
 
-.singlecontent {
+.content {
     padding: 3em;
+}
+
+.widget-sidebar h3 {
+    font-family: sfthin;
 }
