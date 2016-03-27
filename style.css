@@ -25,6 +25,11 @@ Text Domain: alice_guan_blank_template
     src: url("http://www.aliceguandesign.com/blog/wp-content/themes/blogsite-guan-alice/fonts/sfthin.otf");
 }
 
+@font-face {
+    font-family: antre;
+    src: url("http://www.aliceguandesign.com/blog/wp-content/themes/blogsite-guan-alice/fonts/antre.otf");
+}
+
 * {
     color: #000000;
     font-size: 16px;
@@ -45,7 +50,7 @@ Text Domain: alice_guan_blank_template
 
 h1, h2, h3, h4, h5, h6 {
     color: black;
-    font-family: sfsemibold;
+    font-family: antre;
 }
 
 h2, h4, h6 {
@@ -291,17 +296,44 @@ input {
     background-color: #ffc4a6;
 }
 
-widget-sidebar widget-footer {
-    position: absolute;
-    left: -999em;
-    width: 1em;
-    overflow: hidden;
+.singlecontent {
+    margin-top: 1em;
+    margin-left: 2%;
 }
 
-.content {
-    padding: 3em;
+.singlecontent p {
+    font-family: sflight;
+    line-height: 1.5em;
 }
 
 .widget-sidebar h3 {
+    font-family: sflight;
+    font-size: 2.0rem;
+    margin-left: 0.8em;
+    margin-bottom: 0;
+}
+
+.widget-sidebar {
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+}
+
+.widget-sidebar ul {
+    padding: 1em;
+    list-style-type: none;
+}
+
+.widget-sidebar li a {
+    text-decoration: none;
     font-family: sfthin;
+}
+
+.sidebar {
+    margin-left: 2%;
+}
+
+.single-post-thumbnail {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;;
 }

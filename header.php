@@ -19,7 +19,7 @@
         <!-- Add Menu Here -->
         <div>
             <div class="four columns sidemenu">
-                <h1>Hi.</h1>
+                <h1>hello.</h1>
                 <?php get_search_form(); ?>
                 <?php wp_nav_menu(array(
                     'menu' => 'Menu',

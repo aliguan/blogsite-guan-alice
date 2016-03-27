@@ -7,14 +7,14 @@
                     if ( has_post_thumbnail() ) { ?>
                     <div class="single-post-thumbnail"><?php the_post_thumbnail('small'); ?></div>
                 <?php } ?>
-                <div class="eight columns">
+                <div class="eight columns singlecontent">
                     <h2><?php the_title(); ?></h2>
 
                     <?php the_content();
                         endwhile;
                     endif; ?>
                 </div>
-                <div class="three columns">
+                <div class="four columns sidebar">
                     <?php get_sidebar( 'first-widget' ); ?>
                 </div>
             </div>
