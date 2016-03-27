@@ -1,10 +1,7 @@
 <?php get_header(); ?>
 
         <section class="row">
-            <div class="two columns">
-                <p>Sidebar Content</p>
-            </div>
-            <div class="eight columns">
+            <div class="eight columns frontpg">
 
                 <?php if (have_posts()) :
                     while (have_posts()) : the_post();

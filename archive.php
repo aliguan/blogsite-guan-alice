@@ -4,9 +4,9 @@
 get_header(); ?>
 
 <div class="row">
-    <div class="twelve columns">
+    <div class="eight columns frontpg">
         <?php if ( have_posts() ) : ?>
-            <h2>Archives</h2>
+            <h2><strong><?php single_cat_title(''); ?><strong></h2>
             <?php
             // The Loop
             while ( have_posts() ) : the_post();?>
@@ -21,20 +21,6 @@ get_header(); ?>
         <?php else: ?>
             <p>Sorry, no posts matched your criteria.</p>
         <?php endif; ?>
-    </div>
-</div>
-<div class="row">
-    <div class="six columns">
-        <h2>Archives by Month:</h2>
-        <ul>
-            <?php wp_get_archives('type=monthly'); ?>
-        </ul>
-    </div>
-    <div class="six columns">
-        <h2>Archives by Category:</h2>
-        <ul>
-             <?php wp_list_categories(); ?>
-        </ul>
     </div>
 </div>
 <?php get_footer(); ?>

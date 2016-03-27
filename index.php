@@ -21,7 +21,7 @@
                 ?>
             <div class="griditemleft">
                 <div class="postimage">
-                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-right'); ?></a>
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-left'); ?></a>
                     <div class="pgtitle">
                         <div class="pgtitleinner">
                             <div class="pgtitlecontent">
