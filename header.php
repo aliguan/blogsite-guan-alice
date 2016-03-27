@@ -6,6 +6,7 @@
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href=" <?php  bloginfo('stylesheet_url');?>" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <div class="container">

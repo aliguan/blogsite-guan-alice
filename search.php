@@ -11,7 +11,7 @@ get_header(); ?>
                         <div class="searchpic">
                             <?php the_post_thumbnail(); ?>
                         </div>
-                        <div class="searchcontent">
+                        <div class="searchcontent list_post">
                             <h2><?php the_title(); ?></h2>
                             <?php the_excerpt(); ?>
                         </div>
@@ -21,5 +21,7 @@ get_header(); ?>
                             else : ?>
                             <h1>Nothing Found</h1>
                             <p>Sorry, but nothing matched your search criteria. Please try again with different search terms.</p>
+
                         <?php endif; ?>
+
         </div>

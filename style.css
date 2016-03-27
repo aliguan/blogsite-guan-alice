@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2, h4, h6 {
-    font-family: sfthin;
+    font-family: 'Slabo 27px', serif;;
     font-size: 3.0rem;
 }
 
@@ -344,14 +344,22 @@ input {
 }
 
 .searchpic {
-    width: 33%;
+    width: 25%;
     display: inline;
     float: left;
+    margin-top: 1.3em;
 }
 
 .searchcontent {
     width: 66%;
     float: left;
-    padding: 0 1em;
+    margin: 1em;
     box-sizing: border-box;
+    padding: 1.5em;
+}
+
+.list_post {
+    border-bottom: 2px solid #EDEDED;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
