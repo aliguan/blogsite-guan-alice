@@ -48,6 +48,11 @@ Text Domain: alice_guan_blank_template
     margin-left: -100px;
 }
 
+.frontpg h1 {
+    font-family: sflight;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: antre;

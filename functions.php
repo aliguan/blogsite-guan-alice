@@ -52,5 +52,14 @@ add_theme_support( 'post-thumbnails' );
 add_image_size( 'frontpg-left', 700, 476, true );
 add_image_size( 'frontpg-right', 200, 100, true );
 
+/* add read more to excerpt */
+
+function wpdocs_excerpt_more( $more ) {
+    return sprintf( '<a class="read-more" href="%1$s">%2$s</a>',
+        get_permalink( get_the_ID() ),
+        __( 'Read More', 'textdomain' )
+    );
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
 ?>
