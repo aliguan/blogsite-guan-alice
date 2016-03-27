@@ -294,3 +294,7 @@ widget-sidebar widget-footer {
     width: 1em;
     overflow: hidden;
 }
+
+.singlecontent {
+    padding: 3em;
+}

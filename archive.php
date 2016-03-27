@@ -6,7 +6,7 @@ get_header(); ?>
 <div class="row">
     <div class="eight columns frontpg">
         <?php if ( have_posts() ) : ?>
-            <h2><strong><?php single_cat_title(''); ?><strong></h2>
+            <h2><?php single_cat_title(''); ?></h2>
             <?php
             // The Loop
             while ( have_posts() ) : the_post();?>
