@@ -9,11 +9,13 @@ get_header(); ?>
             <?php if (have_posts()) :
                 while (have_posts()) : the_post(); ?>
                         <div class="searchpic">
+                            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
                             <?php the_post_thumbnail(); ?>
+                            </a>
                         </div>
                         <div class="searchcontent list_post">
                             <h2><?php the_title(); ?></h2>
-                            <?php the_excerpt(); ?>
+                            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_excerpt(); ?></a>
                         </div>
 
                             <?

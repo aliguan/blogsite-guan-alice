@@ -12,10 +12,10 @@ get_header(); ?>
             while ( have_posts() ) : the_post();?>
             <!-- data context -->
             <div class="searchpic">
-                <?php the_post_thumbnail(); ?>
+                <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail(); ?></a>
             </div>
             <div class="searchcontent list_post">
-                <h2><?php the_title(); ?></h2>
+                <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><h2><?php the_title(); ?></h2></a>
                 <?php the_excerpt(); ?>
             </div>
             <?php endwhile; ?> <!-- End Loop -->
