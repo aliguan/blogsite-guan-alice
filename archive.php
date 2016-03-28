@@ -19,7 +19,10 @@ get_header(); ?>
                 <?php the_excerpt(); ?>
             <?php endwhile; ?> <!-- End Loop -->
         <?php else: ?>
-            <p>Sorry, no posts matched your criteria.</p>
+            <div class="noposts">
+                <img src="http://www.aliceguandesign.com/blog/wp-content/themes/blogsite-guan-alice/img/sadface.png"/>
+                <h1>Sorry, there are no <br/>posts here yet.</h1>
+            </div>
         <?php endif; ?>
     </div>
 </div>

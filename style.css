@@ -31,7 +31,7 @@ Text Domain: alice_guan_blank_template
 }
 
 body {
-    background-color: #faf9f0;
+    background-color: #fffcf6;
 }
 
 * {
@@ -390,8 +390,10 @@ p {
     color: #1EAEDB;
 }
 
-/* contact form */
-
-body.page-id-49 {
-    background-image: url();
+.noposts {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
 }
