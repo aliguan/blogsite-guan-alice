@@ -20,12 +20,12 @@
                     if($counter == 1) :
                 ?>
             <div class="griditemleft">
-                <div class="postimage">
+                <div class="postimage hvr-shrink">
                     <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-left'); ?></a>
                     <div class="pgtitle">
                         <div class="pgtitleinner">
                             <div class="pgtitlecontent">
-                                <h2 class="ontop hvr-bounce-in"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                                <h2 class="ontop"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
                             </div>
                         </div>
                     </div>
@@ -36,12 +36,12 @@
                 elseif($counter == $grids) :
                 ?>
             <div class="griditemright">
-                <div class="postimage">
-                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-right'); ?></a>
-                    <div class="pgtitlert">
+                <div class="postimage hvr-shrink">
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('frontpg-left'); ?></a>
+                    <div class="pgtitle">
                         <div class="pgtitleinner">
                             <div class="pgtitlecontent">
-                                <h2 class="ontop hvr-bounce-in"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                                <h2 class="ontop"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
                             </div>
                         </div>
                     </div>

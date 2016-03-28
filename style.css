@@ -52,7 +52,7 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, , h3, h4, h5, h6 {
     color: black;
 }
 
@@ -105,13 +105,13 @@ p {
 
 .gridcontainer .griditemleft {
     float: left;
-    width: 66%;
-    margin: 0 2px 0 0;
+    width: calc( 100% / 2 );
  }
 
 .gridcontainer .griditemright {
     float: left;
-    width: 33%;
+    width: calc( 100% / 2 )
+
 }
 
 .postimage {
@@ -153,10 +153,12 @@ p {
 .pgtitlecontent h2 {
     margin:0;
     background:rgba(255,255,255,0.4);
-    padding: 0.3em;
+    padding: 0.5em;
+    font-size: 2rem;
 }
 
-.hvr-bounce-in {
+/* Shrink */
+.hvr-shrink {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -165,16 +167,16 @@ p {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
-.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-}
 
 
 /*--- Menu --- */

@@ -50,7 +50,6 @@ add_theme_support('menus');
 
 add_theme_support( 'post-thumbnails' );
 add_image_size( 'frontpg-left', 700, 476, true );
-add_image_size( 'frontpg-right', 200, 100, true );
 
 /* add read more to excerpt */
 
