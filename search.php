@@ -22,7 +22,7 @@ get_header(); ?>
                             endwhile;
                             else : ?>
                             <h1>Nothing Found</h1>
-                            <p>Sorry, but nothing matched your search criteria. Please try again with different search terms.</p>
+                            <p>Try again with different search terms.</p>
 
                         <?php endif; ?>
 

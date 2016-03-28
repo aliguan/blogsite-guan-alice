@@ -25,11 +25,6 @@ Text Domain: alice_guan_blank_template
     src: url("http://www.aliceguandesign.com/blog/wp-content/themes/blogsite-guan-alice/fonts/sfthin.otf");
 }
 
-@font-face {
-    font-family: antre;
-    src: url("http://www.aliceguandesign.com/blog/wp-content/themes/blogsite-guan-alice/fonts/antre.otf");
-}
-
 body {
     background-color: #fffcf6;
 }
@@ -59,12 +54,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: black;
-    font-family: antre;
 }
 
 h2, h4, h6 {
-    font-family: 'Slabo 27px', serif;;
-    font-size: 3.0rem;
+    font-family: 'Slabo 27px', serif;
 }
 
 h1, h1 a {
@@ -192,7 +185,7 @@ p {
     font-family: sfthin;
     height: 5000px;
     overflow-y: hidden;
-
+    width: 100%;
 }
 
 .sidemenu h1 {
@@ -231,12 +224,6 @@ p {
     float: left;
 }
 
-.social {
-    background-color: #ffc4a6;
-    clear: both;
-
-}
-
 .hide {
     display: none;
 }
@@ -245,6 +232,8 @@ p {
     color: white;
     padding-top: 1em;
     display: block;
+    background-color: #ffc4a6;
+    clear: both;
 }
 
 .social ul {
@@ -285,7 +274,6 @@ p {
     min-height: 45px;
 }
 
-
 .search-form input[type="search"] {
     border: none;
     min-height: 45px;
@@ -300,17 +288,12 @@ p {
     outline: none;
 }
 
-.footerside {
-    background-color: #ffc4a6;
-}
-
 .singlecontent {
     margin-top: 1em;
     margin-left: 2%;
 }
 
 .singlecontent p {
-    font-family: sflight;
     line-height: 1.5em;
 }
 
@@ -364,6 +347,14 @@ p {
 .searchcontent p {
     text-indent: 0;
     font-size: 16px;
+}
+
+.searchcontent a {
+    text-decoration: none;
+}
+
+.searchcontent a:hover {
+    color: #1eaedb;
 }
 
 
