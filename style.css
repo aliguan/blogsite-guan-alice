@@ -1,11 +1,11 @@
 /*
-Theme Name: Alice Guan Blank Theme
-Theme URI: Alice Guan Blank
+Theme Name: Alice Guan BlogSite Theme
+Theme URI: Alice Guan Blog
 Author: Alice Guan
-Description: Blank theme for WIE course
+Description: BlogSite theme for WIE course
 Version: 0.1
 License: Open
-Text Domain: alice_guan_blank_template
+Text Domain: alice_guan_blogsite
 */
 
 @import url("css/normalize.css");
@@ -241,7 +241,7 @@ p {
 .social ul {
     margin-top: 150px;
     display: block;
-    margin-left: 32px;
+    margin-left: 40px;
 }
 
 .social i {
