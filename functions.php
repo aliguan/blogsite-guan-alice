@@ -55,9 +55,9 @@ add_image_size( 'frontpg-right', 200, 100, true );
 /* add read more to excerpt */
 
 function wpdocs_excerpt_more( $more ) {
-    return sprintf( '<a class="read-more" href="%1$s">%2$s</a>',
+    return sprintf( '<a class="read-more" href="%1$s">%2$s</a><br/>',
         get_permalink( get_the_ID() ),
-        __( 'Read More', 'textdomain' )
+        __( '<i class="fa fa-book"></i> Read More...', 'textdomain' )
     );
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );

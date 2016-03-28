@@ -10,9 +10,9 @@
                 <div class="eight columns singlecontent">
                     <h2><?php the_title(); ?></h2>
 
-                    <?php the_content();
+                    <p><?php the_content();
                         endwhile;
-                    endif; ?>
+                    endif; ?><p>
                 </div>
                 <div class="four columns sidebar">
                     <?php get_sidebar( 'first-widget' ); ?>
