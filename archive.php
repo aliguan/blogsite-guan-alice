@@ -11,12 +11,13 @@ get_header(); ?>
             // The Loop
             while ( have_posts() ) : the_post();?>
             <!-- data context -->
-                <h2>
-                    <a href="<?php the_permalink() ?>">
-                        <?php the_title(); ?>
-                    </a>
-                </h2>
+            <div class="searchpic">
+                <?php the_post_thumbnail(); ?>
+            </div>
+            <div class="searchcontent list_post">
+                <h2><?php the_title(); ?></h2>
                 <?php the_excerpt(); ?>
+            </div>
             <?php endwhile; ?> <!-- End Loop -->
         <?php else: ?>
             <div class="noposts">
